@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
+
+* {
+	font-family: Epilogue;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 40px;
+	width: auto;
+	height: 78px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	font-size: 1rem;
+	font-weight: 400;
+	padding-left: 20px;
+	transition: transform 0.25s;
+}
+
+nav li:hover {
+	color: #009379;
+	cursor: pointer;
+}
+
+.nav-left img {
+	width: 40px;
+	height: 40px;
+}
+
+header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 40px 80px;
+	width: 1440px;
+	height: auto;
+}
+
+.header-left p {
+	margin-bottom: 8px;
+}
+
+.header-right img {
+	width: 310px;
+	height: 360px;
+}
+
+#skills {
+	display: flex;
+	gap: 40px;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 40px 40px;
+	width: 1440px;
+	height: auto;
+}
+
+.skills-card {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 450px;
+	height: auto;
+}
+
+.skills-card img {
+	width: 124px;
+	height: 124px;
+}
+
+.skills-card p {
+	text-align: center;
+}
+
+#gallery {
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	justify-content: center;
+	padding: 40px;
+	width: auto;
+	height: auto;
+}
+
+#gallery h2 {
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1440px;
+	height: auto;
+}
+
+.gallery-card {
+	width: 450px;
+	height: auto;
+}
+
+.gallery-card img {
+	object-fit: contain;
+	width: 450px;
+	height: auto;
+}
+
+#logobar {
+	align-items: center;
+	display: flex;
+	gap: 100px;
+	justify-content: center;
+	padding: 40px;
+	width: auto;
+	height: auto;
+}
+
+.logobar-1 {
+	width: 116px;
+	height: 38.18px;
+}
+
+.logobar-2 {
+	width: 86px;
+	height: 30.50px;
+}
+
+.logobar-3 {
+	width: 113px;
+	height: 17.39px;
+}
+
+.logobar-4 {
+	width: 38px;
+	height: 46.69px;
+}
+
+.logobar-5 {
+	width: 65px;
+	height: 43.72px;
+}
+
+#testimonial {
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 40px;
+	width: 1440px;
+	height: auto;	
+}
+
+#testimonial h2 {
+	display: flex;
+	justify-content: center;
+}
+
+.testimonial-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	justify-content: space-between;
+	width: 1440px;
+	height: auto;
+}
+
+.comments {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.testimonial-card {
+	background-color: #F3F3F3;
+	padding: 40px;
+	width: 370px;
+	height: auto;
+}
+
+.profile {
+	display: flex;
+	gap: 20px;
+}
+
+.profile img {
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.star img {
+	margin-bottom: 5px;
+	width: 10px;
+	height: 10px;
+}
+
+.profile-info h4 {
+	margin-bottom: 2.5px;
+}
+
+footer {
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+	gap: 40px;
+	padding: 40px 145px; 
+	width: auto;
+	height: auto;
+}
+
+#footer-content {
+	align-items: start;
+	display: flex;
+	justify-content: space-between;
+	width: 1440px;
+	height: auto;
+}
+
+.footer-left {
+	width: 580px;
+}
+
+.footer-left img {
+	margin-right: 15px;
+}
+
+.footer-right {
+	display: flex;
+	flex-wrap: wrap;
+	width: 580px;
+}
+
+form input {
+	background-color: #F3F3F3;
+	border: none;
+	outline: none;
+	padding: 20px;
+	width: 540px;
+	height: 20px;
+}
+
+.btn-style {
+	background-color: #2D2D2D;
+	border: 0;
+	color: white;
+	font-size: 1.25rem;
+	font-weight: 600;
+	transition: transform 0.25s;
+	width: 210px;
+	height: 68px;
+}
+
+.btn-style:hover {
+	background-color: #009379;
+	cursor: pointer;
+	transform: translate(0, -2.5px);
+}
+
+.h1-style {
+	font-size: 4.25rem;
+	font-weight: 700;
+	margin: 24px 0;
+}
+
+.h2-style {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.h3-style {
+	font-size: 1.75rem;
+	font-weight: 600;
+}
+
+.h4-style {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.h5-style {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.p-12px {
+	font-size: 0.75rem;
+	font-weight: 400;
+}
+.p-16px {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.mt-5px {
+	margin-top: 5px;
+}
+
+.mt-10px {
+	margin-top: 10px;
+}
+
+.mt-15px {
+	margin-top: 15px;
+}
+
+.mt-20px {
+	margin-top: 20px;
+}
+
+.mt-40px {
+	margin-top: 40px;
+}
